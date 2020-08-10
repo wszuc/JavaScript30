@@ -1,0 +1,26 @@
+:root{
+    --color: grey;
+    --blur: 5px;
+    --spacing: 10px;
+}
+
+html{
+    background-color:rgba(0, 6, 61, 0.568) ;
+    margin: 0 30px 0 30px;
+    text-align: center;
+}
+
+
+.js-word{
+    color: var(--color);
+}
+
+.controls{
+    padding-bottom: 40px;
+}
+
+img{
+    padding: var(--spacing);
+    filter: blur(var(--blur));
+    background-color: var(--color);
+}
